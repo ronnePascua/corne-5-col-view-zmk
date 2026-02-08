@@ -2,10 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: macaron
+      url-base: https://github.com/ronnePascua
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: v0.3
       import: app/west.yml
+    - name: nice-view-peripheral-animation
+      remote: macaron
+      revision: main
   self:
     path: config
