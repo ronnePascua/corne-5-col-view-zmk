@@ -84,8 +84,8 @@
         nav {
             bindings = <
   &none     &none     &none      &none      &none    &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &none
-  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &none    &kp LEFT        &kp DOWN        &kp UP        &kp RIGHT        &kp SCROLLLOCK
-  &none     &none     &none      &none      &none    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &kp KP_NUMLOCK
+  &none     &none     &none      &kp LSHFT  &none    &kp LEFT        &kp DOWN        &kp UP        &kp RIGHT        &kp SCROLLLOCK
+  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &none    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &kp KP_NUMLOCK
                       &none      &mo 5      &none    &none           &none           &none
             >;
         };
@@ -93,8 +93,8 @@
         number {
             bindings = <
   &none  &kp N1  &kp N2  &kp N3  &kp N0    &none  &none      &none      &none     &none
-  &none  &kp N4  &kp N5  &kp N6  &none     &none  &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI
-  &none  &kp N7  &kp N8  &kp N9  &none     &none  &none      &none      &none     &none
+  &none  &kp N4  &kp N5  &kp N6  &none     &none  &none      &none      &none     &none
+  &none  &kp N7  &kp N8  &kp N9  &none     &none  &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI
                  &none   &none   &none     &none  &mo 5      &none
             >;
         };
@@ -102,8 +102,8 @@
         symbol {
             bindings = <
   &none     &none     &none      &none      &none    &none          &none         &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(PIPE)
-  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &none    &kp LS(UNDER)  &kp LS(PLUS)  &kp LS(LBRC)  &kp LS(RBRC)  &kp BSLH
-  &none     &none     &none      &none      &none    &kp MINUS      &kp EQUAL     &kp LBKT      &kp RBKT      &none
+  &none     &none     &none      &none      &none    &kp LS(UNDER)  &kp LS(PLUS)  &kp LS(LBRC)  &kp LS(RBRC)  &kp BSLH
+  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &none    &kp MINUS      &kp EQUAL     &kp LBKT      &kp RBKT      &none
                       &none      &none      &none    &none          &none         &none
             >;
         };
