@@ -26,8 +26,17 @@
             quick-tap-ms = <200>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
+        };
 
-            require-prior-idle-ms = <125>;
+        lt: lt {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LT";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
+            quick-tap-ms = <200>;
+            flavor = "balanced";
         };
     };
 
