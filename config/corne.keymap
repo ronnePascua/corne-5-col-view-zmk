@@ -55,25 +55,25 @@
     };
 
     macros {
+        m2: m2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp B &kp E &kp R &kp O &kp X &kp MINUS &kp F &kp O &kp O &kp MINUS &kp N9 &kp N0 &kp N1 &kp N7 &kp RET>;
+            label = "M2";
+        };
+
         m0: m0 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LS(N) &kp O &kp K &kp U &kp L &kp O &kp S &kp QMARK &kp N6 &kp N2 &kp ENTER>;
+            bindings = <&none &kp LS(P) &kp I &kp H &kp I &kp G &kp E &kp B &kp TILDE &kp N6 &kp N2>;
             label = "M0";
         };
 
         m1: m1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LS(T) &kp U &kp D &kp I &kp L &kp O &kp H &kp U &kp F &kp DLLR &kp N4 &kp N9 &kp ENTER>;
+            bindings = <&none &kp LS(W) &kp U &kp S &kp E &kp P &kp U &kp P &kp CARET &kp N7 &kp N2>;
             label = "M1";
-        };
-
-        m2: m2 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp B &kp E &kp R &kp O &kp X &kp MINUS &kp F &kp O &kp O &kp MINUS &kp N9 &kp N0 &kp N1 &kp N7 &kp RET>;
-            label = "M2";
         };
     };
 
